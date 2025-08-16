@@ -43,7 +43,6 @@
 /* Základní */
 .card {
     background: var(--color-white);
-    border: 1px solid var(--color-gray-200);
     border-radius: var(--radius-md);
     box-shadow: var(--shadow-sm);
     padding: var(--space-md);
@@ -59,7 +58,6 @@
 .card-primary {
     background: var(--color-primary);
     color: var(--color-white);
-    border: none;
 }
 
 .card-primary h3,
@@ -68,8 +66,7 @@
 }
 
 .card-outline {
-    background: transparent;
-    border: 2px solid var(--color-primary);
+    background: var(--color-primary-dark);
     color: var(--color-primary-dark);
 }
 
@@ -87,10 +84,38 @@
     color: var(--color-white);
 }
 
-.card-with-icon{
+.card-with-icon {
     position: relative;
     padding-top: 5rem;
     overflow: hidden;
+}
+
+.card-stepper {
+    padding: 0;
+    overflow: hidden;
+
+    div {
+        padding: var(--space-md);
+    }
+}
+
+.card-stepper-2 {
+    margin-left: 5rem;
+}
+
+.card-stepper-3 {
+    margin-left: 10rem;
+}
+
+.card-stepper-4 {
+    margin-left: 15rem;
+}
+
+.card-step-number {
+    font-size: calc(2*var(--font-size-base));
+    background-color: var(--color-white);
+    color: var(--color-primary);
+    padding: 2rem;
 }
 
 .flex ul {
