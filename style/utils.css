@@ -12,6 +12,7 @@
 .items-start { align-items: flex-start; }
 .items-center { align-items: center; }
 .items-end { align-items: flex-end; }
+.items-stretch { align-items: stretch; }
 
 .gap { gap: var(--space-md); }
 .gap-lg { gap: var(--space-lg); }

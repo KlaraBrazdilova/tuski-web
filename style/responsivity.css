@@ -1,0 +1,18 @@
+@media (max-width: 959px) {
+    .section {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+
+@media (max-width: 559px) {
+    .flex-col-sm {
+        flex-direction: column;
+    }
+    .hidden-sm{
+        display: none;
+    }
+    .card-stepper-2, .card-stepper-3, .card-stepper-4{
+        margin: 0;
+    }
+}
