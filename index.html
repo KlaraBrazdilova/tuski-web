@@ -12,7 +12,7 @@
         <link rel="stylesheet" href="/style/components.css">
         <link rel="stylesheet" href="/style/header.css">
         <link rel="stylesheet"
-            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&icon_names=account_balance,delivery_truck_speed,energy,monitoring"/>
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0&icon_names=account_balance,delivery_truck_speed,energy,monitoring,show_chart" />
     </head>
     <body>
         <header class="site-header">
@@ -28,13 +28,17 @@
                 </nav>
             </div>
         </header>
-        <section class="section container flex justify-between items-center">
-            <div class="flex flex-col justify-start flex-1">
-                <h1 class="brand-name">TUSKI Advisory s.r.o.</h1>
-                <h2 class="tagline">Dotační poradenství</h2>
-            </div>
-            <img src="img/partners.jpg" alt="partners" class="partners flex-1">
-        </section>
+        <div class="section-bg-primary">
+            <section
+                class="section container flex justify-between items-center">
+                <div class="flex flex-col justify-start flex-1">
+                    <h1 class="brand-name">TUSKI Advisory s.r.o.</h1>
+                    <h2 class="tagline">Dotační poradenství</h2>
+                </div>
+                <img src="img/partners.jpg" alt="partners"
+                    class="partners flex-1">
+            </section>
+        </div>
         <section class="section container">
             <h2>Dotace s právní jistotou a finanční odpovědností</h2>
             <p>Pomáháme podnikům a veřejnému sektoru připravit, podat a
@@ -62,52 +66,72 @@
                 </div>
             </div>
         </section>
-        <section id="sluzby" class="section container">
-            <h2>Služby</h2>
-            <p>Kompletní poradenství
-                pro získání a správu dotací z programů EU i národních zdrojů.
-                Každý krok dokumentujeme a opíráme o aktuální metodiky a právní
-                rámec.</p>
-            <div class="grid grid-3 mt-md">
-                <article class="card card-outline">
-                    <h3>Mapování příležitostí</h3>
-                    <p>Monitoring výzev a předběžná konzultace vhodnosti.
-                        Stanovení harmonogramu a požadavků.</p>
-                </article>
-                <article class="card card-outline">
-                    <h3>Příprava projektu</h3>
-                    <p>Zpracování projektového záměru, rozpočtu, CBA, indikátorů
-                        a povinných příloh.</p>
-                </article>
-                <article class="card card-outline">
-                    <h3>Podání žádosti</h3>
-                    <p>Kompletace a podání žádosti v příslušných systémech.
-                        Zajištění vyjádření a potvrzení.</p>
-                </article>
-                <article class="card card-outline">
-                    <h3>Administrace realizace</h3>
-                    <p>Změnové řízení, žádosti o platbu, zprávy o realizaci,
-                        publicita a archivace.</p>
-                </article>
-                <article class="card card-outline">
-                    <h3>Veřejné zakázky</h3>
-                    <p>Nastavení postupu, dokumentace VZ, kontrola zadávacích
-                        podmínek a průběhu.</p>
-                </article>
-                <article class="card card-outline">
-                    <h3>Kontroly a udržitelnost</h3>
-                    <p>Příprava na kontroly poskytovatele a auditů; dohled nad
-                        povinnostmi v udržitelnosti.</p>
-                </article>
-            </div>
-        </section>
+        <div class="section-bg-primary">
+            <section id="sluzby" class="section container">
+                <h2>Služby</h2>
+                <p>Kompletní poradenství
+                    pro získání a správu dotací z programů EU i národních
+                    zdrojů.
+                    Každý krok dokumentujeme a opíráme o aktuální metodiky a
+                    právní
+                    rámec.</p>
+                <div class="grid grid-3 mt-xl">
+                    <article class="card card-outline card-with-icon">
+                        <span
+                            class="material-symbols-outlined icon-lg icon-inverted">show_chart</span>
+                        <h3 class="mt-md">Mapování příležitostí</h3>
+                        <p>Monitoring výzev a předběžná konzultace vhodnosti.
+                            Stanovení harmonogramu a požadavků.</p>
+                    </article>
+                    <article class="card card-outline card-with-icon">
+                        <span
+                            class="material-symbols-outlined icon-lg icon-inverted">show_chart</span>
+                        <h3 class="mt-md">Příprava projektu</h3>
+                        <p>Zpracování projektového záměru, rozpočtu, CBA,
+                            indikátorů
+                            a povinných příloh.</p>
+                    </article>
+                    <article class="card card-outline card-with-icon">
+                        <span
+                            class="material-symbols-outlined icon-lg icon-inverted">show_chart</span>
+                        <h3 class="mt-md">Podání žádosti</h3>
+                        <p>Kompletace a podání žádosti v příslušných systémech.
+                            Zajištění vyjádření a potvrzení.</p>
+                    </article>
+                    <article class="card card-outline card-with-icon">
+                        <span
+                            class="material-symbols-outlined icon-lg icon-inverted">show_chart</span>
+                        <h3 class="mt-md">Administrace realizace</h3>
+                        <p>Změnové řízení, žádosti o platbu, zprávy o realizaci,
+                            publicita a archivace.</p>
+                    </article>
+                    <article class="card card-outline card-with-icon">
+                        <span
+                            class="material-symbols-outlined icon-lg icon-inverted">show_chart</span>
+                        <h3 class="mt-md">Veřejné zakázky</h3>
+                        <p>Nastavení postupu, dokumentace VZ, kontrola
+                            zadávacích
+                            podmínek a průběhu.</p>
+                    </article>
+                    <article class="card card-outline card-with-icon">
+                        <span
+                            class="material-symbols-outlined icon-lg icon-inverted">show_chart</span>
+                        <h3 class="mt-md">Kontroly a udržitelnost</h3>
+                        <p>Příprava na kontroly poskytovatele a auditů; dohled
+                            nad
+                            povinnostmi v udržitelnosti.</p>
+                    </article>
+                </div>
+            </section>
+        </div>
+
         <section id="obory" class="section container">
             <h2>Oborové zaměření</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 Consequuntur eveniet rerum, harum iste asperiores voluptatibus
                 facilis sed porro hic fugit alias doloremque eum laboriosam
                 mollitia! At possimus ipsa quae hic?</p>
-            <div class="grid grid-2 mt-md">
+            <div class="grid grid-2 mt-xl">
                 <article class="card card-primary flex gap-lg items-center">
                     <span
                         class="material-symbols-outlined icon-lg">monitoring</span>
@@ -143,41 +167,44 @@
                 </article>
             </div>
         </section>
-        <section id="proces" class="section container">
-            <h2>Jak postupujeme</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                molestiae commodi atque labore illum nemo nulla tempora ipsa
-                quaerat magnam vitae tempore amet, ea ducimus eaque error
-                consequatur ex accusamus.</p>
-            <div class="flex flex-col gap-lg mt-lg">
-                <article class="card card-outline">
-                    <h3>Úvodní konzultace</h3>
-                    <p>Porozumění záměru, předběžné posouzení a rámcová
-                        kalkulace.</p>
-                </article>
-                <article class="card card-outline">
-                    <h3>Strukturování projektu</h3>
-                    <p>Nastavení rozpočtu, indikátorů a milníků; rozdělení
-                        odpovědností.</p>
-                </article>
-                <article class="card card-outline">
-                    <h3>Příprava a podání</h3>
-                    <p>Zpracování žádosti, CBA a příloh; podání v systému
-                        poskytovatele.</p>
-                </article>
-                <article class="card card-outline">
-                    <h3>Realizace a udržitelnost</h3>
-                    <p>Administrace, platby, publicita a příprava na
-                        kontroly.</p>
-                </article>
-            </div>
-        </section>
+        <div class="section-bg-primary">
+            <section id="proces" class="section container">
+                <h2>Jak postupujeme</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
+                    molestiae commodi atque labore illum nemo nulla tempora ipsa
+                    quaerat magnam vitae tempore amet, ea ducimus eaque error
+                    consequatur ex accusamus.</p>
+                <div class="flex flex-col gap-lg mt-xl">
+                    <article class="card card-outline">
+                        <h3>Úvodní konzultace</h3>
+                        <p>Porozumění záměru, předběžné posouzení a rámcová
+                            kalkulace.</p>
+                    </article>
+                    <article class="card card-outline">
+                        <h3>Strukturování projektu</h3>
+                        <p>Nastavení rozpočtu, indikátorů a milníků; rozdělení
+                            odpovědností.</p>
+                    </article>
+                    <article class="card card-outline">
+                        <h3>Příprava a podání</h3>
+                        <p>Zpracování žádosti, CBA a příloh; podání v systému
+                            poskytovatele.</p>
+                    </article>
+                    <article class="card card-outline">
+                        <h3>Realizace a udržitelnost</h3>
+                        <p>Administrace, platby, publicita a příprava na
+                            kontroly.</p>
+                    </article>
+                </div>
+            </section>
+        </div>
+
         <section id="tym" class="section container">
             <h2>Tým</h2>
             <p>Společnost založili tři právníci. Každý z nás nese odpovědnost za
                 konkrétní oblast a
                 zůstává klientovi nablízku po celou dobu spolupráce.</p>
-            <div class="grid grid-3 mt-md">
+            <div class="grid grid-3 mt-xl">
                 <article class="card flex flex-col">
                     <h3>Mgr. Bc. Adam Stareček</h3>
                     <span>Partner</span>

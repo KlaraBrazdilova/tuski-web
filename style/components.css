@@ -87,6 +87,12 @@
     color: var(--color-white);
 }
 
+.card-with-icon{
+    position: relative;
+    padding-top: 5rem;
+    overflow: hidden;
+}
+
 .flex ul {
     list-style: none;
     padding: 0;

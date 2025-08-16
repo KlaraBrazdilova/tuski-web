@@ -4,6 +4,7 @@ body {
   line-height: var(--line-height-base);
   color: var(--color-text);
   background: var(--color-white);
+  margin: 0;
 }
 
 /* Nadpisy */

@@ -11,19 +11,34 @@
 
 .brand-name {
   margin: 0;
-  color: var(--color-primary-dark);
+  color: var(--color-on-primary);
 }
 
 .tagline {
-  color: var(--color-text-light);
+  color: var(--color-on-primary-muted);
 }
 
-.logo{
-    height: 3rem;
+.logo {
+  height: 3rem;
 }
 
-.partners{
-    width: 50%;
+.partners {
+  width: 50%;
+}
+
+.section-bg-primary {
+  background-color: var(--color-primary);
+  color: var(--color-on-primary-muted);
+
+  h2,
+  h3 {
+    color: var(--color-on-primary);
+  }
+
+  .card-outline {
+    border-color: var(--color-on-primary-muted);
+    color: var(--color-on-primary-muted);
+  }
 }
 
 .nav-link {

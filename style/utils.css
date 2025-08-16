@@ -35,6 +35,7 @@
 .mt-sm { margin-top: var(--space-sm); }
 .mt-md { margin-top: var(--space-md); }
 .mt-lg { margin-top: var(--space-lg); }
+.mt-xl { margin-top: var(--space-xl); }
 
 .p-0 { padding: 0; }
 .p-sm { padding: var(--space-sm); }
@@ -43,4 +44,16 @@
 
 .icon-lg{
     font-size: calc(2.5*var(--font-size-base)) !important;
+}
+
+.icon-inverted{
+    color:var(--color-primary);
+    background-color: var(--color-on-primary-muted);
+    width: 3rem;
+    height: 3rem;
+    padding: 2rem 1rem 1rem 2rem;
+    border-radius: var(--radius-md);
+    position: absolute;
+    left:-1rem;
+    top:-1rem;
 }

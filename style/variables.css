@@ -1,8 +1,13 @@
 :root {
   /* Brand barvy */
-  --color-primary: #008296;   /* hlavní modrozelená z loga */
-  --color-primary-light: #33a5b3; /* světlejší odstín na hover */
-  --color-primary-dark: #005b66;  /* tmavší odstín pro kontrast */
+  --color-primary: #008296;
+  /* hlavní modrozelená z loga */
+  --color-primary-light: #33a5b3;
+  /* světlejší odstín na hover */
+  --color-primary-dark: #005b66;
+  /* tmavší odstín pro kontrast */
+  --color-on-primary: #FFFFFF;
+  --color-on-primary-muted: #B0C9CC;
 
   /* Neutrální barvy */
   --color-white: #ffffff;
@@ -22,9 +27,9 @@
   --color-link-hover: var(--color-primary-dark);
 
   /* Stíny */
-  --shadow-sm: 0 1px 3px rgba(0,0,0,0.12);
-  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
-  --shadow-lg: 0 10px 15px rgba(0,0,0,0.15);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.12);
+  --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 10px 15px rgba(0, 0, 0, 0.15);
 
   /* Radius */
   --radius-sm: 4px;
@@ -38,11 +43,16 @@
   --line-height-base: 1.6;
 
   /* Layout (spacing systém) */
-  --space-xs: 0.25rem;  /* 4px */
-  --space-sm: 0.5rem;   /* 8px */
-  --space-md: 1rem;     /* 16px */
-  --space-lg: 2rem;     /* 32px */
-  --space-xl: 4rem;     /* 64px */
+  --space-xs: 0.25rem;
+  /* 4px */
+  --space-sm: 0.5rem;
+  /* 8px */
+  --space-md: 1rem;
+  /* 16px */
+  --space-lg: 2rem;
+  /* 32px */
+  --space-xl: 4rem;
+  /* 64px */
 
   /* Container */
   --container-width: 1200px;
