@@ -15,7 +15,7 @@
 }
 
 .tagline {
-  color: var(--color-on-primary-muted);
+  color: var(--color-on-primary-muted) !important;
 }
 
 .logo {
@@ -38,6 +38,10 @@
   .card-outline {
     border-color: var(--color-on-primary-muted);
     color: var(--color-on-primary-muted);
+  }
+
+  a{
+    color: var(--color-on-primary)
   }
 }
 
