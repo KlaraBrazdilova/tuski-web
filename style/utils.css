@@ -40,3 +40,7 @@
 .p-sm { padding: var(--space-sm); }
 .p-md { padding: var(--space-md); }
 .p-lg { padding: var(--space-lg); }
+
+.icon-lg{
+    font-size: calc(2.5*var(--font-size-base)) !important;
+}
