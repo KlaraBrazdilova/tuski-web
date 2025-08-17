@@ -66,7 +66,7 @@ a:focus {
   content: "";
   position: absolute;
   inset: 0;
-  background: url("/img/logo_TUSKI_T_bile.png") repeat;
+  background: url("img/logo_TUSKI_T_bile.png") repeat;
   background-size: 120px auto;
   opacity: 0.04;
   pointer-events: none;
