@@ -37,8 +37,8 @@
   --radius-lg: 16px;
 
   /* Typografie */
-  --font-base: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --font-heading: "Segoe UI Semibold", Roboto, Helvetica, Arial, sans-serif;
+  --font-base: "Merriweather", sans-serif;
+  --font-heading: "Oswald", serif;
   --font-size-base: 16px;
   --line-height-base: 1.6;
 

@@ -51,3 +51,23 @@ a:focus {
     text-decoration: underline;
     outline: none;
 }
+
+.hero {
+  position: relative;
+  background: linear-gradient(
+    135deg,
+    var(--color-primary) 0%,
+    var(--color-primary-dark) 100%
+  );
+  color: var(--color-on-primary);
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("/img/logo_TUSKI_T_bile.png") repeat;
+  background-size: 120px auto;
+  opacity: 0.04;
+  pointer-events: none;
+}
