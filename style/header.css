@@ -23,7 +23,8 @@
 }
 
 .partners {
-  width: 50%;
+  width: 40%;
+  visibility: hidden;
 }
 
 .section-bg-primary {
