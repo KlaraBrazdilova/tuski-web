@@ -16,6 +16,7 @@
 
 .gap { gap: var(--space-md); }
 .gap-lg { gap: var(--space-lg); }
+.gap-xl { gap: var(--space-xl); }
 
 .flex-1{ flex-grow: 1; }
 

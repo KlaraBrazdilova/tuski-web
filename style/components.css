@@ -97,6 +97,11 @@
     div {
         padding: var(--space-md);
     }
+
+    .light-text{
+        color: var(--color-gray-700);
+        font-size: calc(var(--font-size-base)*0.9);
+    }
 }
 
 .card-stepper-2 {

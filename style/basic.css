@@ -109,3 +109,7 @@ a:focus {
 .container--without-top-space {
   padding-top: 0 !important;
 }
+
+.width-part{
+  width: 50%;
+}
