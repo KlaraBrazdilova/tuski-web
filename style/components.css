@@ -111,6 +111,10 @@
     margin-left: 15rem;
 }
 
+.card-stepper-5 {
+    margin-left: 20rem;
+}
+
 .card-step-number {
     font-size: calc(2*var(--font-size-base));
     background-color: var(--color-white);

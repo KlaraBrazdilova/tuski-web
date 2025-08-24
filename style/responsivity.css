@@ -12,7 +12,7 @@
     .hidden-sm{
         display: none;
     }
-    .card-stepper-2, .card-stepper-3, .card-stepper-4{
+    .card-stepper-2, .card-stepper-3, .card-stepper-4, .card-stepper-5{
         margin: 0;
     }
 }
